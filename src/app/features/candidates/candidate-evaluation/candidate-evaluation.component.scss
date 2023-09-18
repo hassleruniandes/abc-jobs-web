@@ -1,0 +1,49 @@
+@import '../../../../assets/styles/variables';
+// Estilo personalizado para la vista de evaluación de desempeño de candidatos
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  .card-title {
+    color: $primary-color;
+  }
+
+  .form-label {
+    font-weight: bold;
+  }
+
+  .form-select,
+  .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .btn-first {
+    background-color: $secondary-color;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 10px;
+  }
+}
+
+.col-lg-8 {
+  h2 {
+    color: $primary-color;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+}

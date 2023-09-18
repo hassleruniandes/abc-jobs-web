@@ -1,0 +1,21 @@
+@import '../../../../assets/styles/variables';
+/* Estilos personalizados para la vista de resultados de entrevistas */
+.container {
+  margin-top: 5rem;
+}
+
+.list-group-item {
+  a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  h3 {
+    margin-top: 1rem;
+  }
+}
+
+.collapse.show {
+  display: block !important;
+}

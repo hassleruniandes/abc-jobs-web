@@ -1,0 +1,43 @@
+@import 'assets/styles/variables';
+
+// Estilos globales
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $text-color;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+}
+
+.text-first{
+  color: $primary-color;
+}
+.btn-first{
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-weight: $heading-font-weight;
+  color: $primary-color;
+}
+
+button {
+  background-color: $secondary-color;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}

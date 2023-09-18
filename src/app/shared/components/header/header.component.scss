@@ -1,0 +1,20 @@
+@import '../../../../assets/styles/variables';
+/* header.component.scss */
+
+header {
+  background: #4e87a7;
+  padding: 20px 0;
+  .navbar {
+    background-color: #6aa7cf;
+    border-radius: 25px;
+    .navbar-nav .nav-link {
+      color: $text-color;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
+.display-4{
+  color: #d5d5d5;
+}

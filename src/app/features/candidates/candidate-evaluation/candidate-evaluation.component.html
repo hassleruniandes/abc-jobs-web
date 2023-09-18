@@ -1,0 +1,54 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title text-first">Evaluación de Desempeño</h2>
+          <form>
+            <div class="mb-3">
+              <label for="candidato" class="form-label">Candidato:</label>
+              <select class="form-select" id="candidato" name="candidato" required>
+                <!-- Opciones de candidatos se pueden cargar dinámicamente desde la base de datos -->
+                <option value="1">Nombre del Candidato 1</option>
+                <option value="2">Nombre del Candidato 2</option>
+                <!-- Agrega más opciones según la base de datos -->
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="proyecto" class="form-label">Proyecto:</label>
+              <select class="form-select" id="proyecto" name="proyecto" required>
+                <!-- Opciones de proyectos se pueden cargar dinámicamente desde la base de datos -->
+                <option value="1">Nombre del Proyecto 1</option>
+                <option value="2">Nombre del Proyecto 2</option>
+                <!-- Agrega más opciones según la base de datos -->
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="evaluacion" class="form-label">Evaluación:</label>
+              <textarea class="form-control" id="evaluacion" name="evaluacion" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-first">Guardar Evaluación</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <h2 class="text-first">Historial de Evaluaciones</h2>
+      <!-- Lista de evaluaciones previas se puede cargar dinámicamente desde la base de datos -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Evaluación 1</h5>
+          <p class="card-text">Candidato: Nombre del Candidato 1</p>
+          <p class="card-text">Proyecto: Nombre del Proyecto 1</p>
+          <p class="card-text">Evaluación: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <!-- Agrega más tarjetas de historial de evaluaciones según sea necesario -->
+    </div>
+  </div>
+</div>

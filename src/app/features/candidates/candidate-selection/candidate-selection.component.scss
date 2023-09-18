@@ -1,0 +1,73 @@
+@import '../../../../assets/styles/variables';
+// Estilo personalizado para la vista de selección de candidatos
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  .card-title {
+    color: $primary-color;
+  }
+
+  .card-text {
+    color: $text-color;
+  }
+
+  .btn-first {
+    background-color: $secondary-color;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+.nav-tabs {
+  margin-top: 20px;
+}
+
+.tab-content {
+  .mt-4 {
+    margin-top: 20px;
+  }
+}
+
+.list-group-item {
+  font-size: 18px;
+  background-color: $background-color;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 10px;
+  }
+}
+
+.card-img {
+  max-width: 100%;
+  height: auto;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+// Estilo personalizado para la vista de candidatos seleccionados en pruebas técnicas
+#seleccionados {
+  .mt-4 {
+    margin-top: 20px;
+  }
+
+  .list-group-item {
+    font-size: 18px;
+    background-color: $background-color;
+    border: none;
+  }
+
+  .card-title {
+    color: $primary-color;
+  }
+
+  .card-text {
+    color: $text-color;
+  }
+}

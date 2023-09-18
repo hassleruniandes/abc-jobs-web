@@ -1,0 +1,66 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-6">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title text-first">Registro de Candidato</h2>
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido:</label>
+              <input type="text" class="form-control" id="apellido" name="apellido" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="direccion" class="form-label">Dirección:</label>
+              <textarea class="form-control" id="direccion" name="direccion"></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="nivel-educativo" class="form-label">Nivel Educativo:</label>
+              <select class="form-select" id="nivel-educativo" name="nivel-educativo">
+                <option value="BACHILLER">Bachiller</option>
+                <option value="UNIVERSITARIO">Universitario</option>
+                <option value="ESPECIALIZACION">Especialización</option>
+                <option value="MAESTRIA">Maestría</option>
+                <option value="DOCTORADO">Doctorado</option>
+                <option value="PORTUGUES">Portugués</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="habilidades" class="form-label">Habilidades:</label>
+              <input type="text" class="form-control" id="habilidades" name="habilidades">
+            </div>
+
+            <div class="mb-3">
+              <label for="experiencia" class="form-label">Experiencia Laboral:</label>
+              <input type="text" class="form-control" id="experiencia" name="experiencia">
+            </div>
+
+            <div class="mb-3">
+              <label for="idiomas" class="form-label">Idiomas:</label>
+              <select class="form-select" id="idiomas" name="idiomas" multiple>
+                <option value="ESPAÑOL">Español</option>
+                <option value="INGLES">Inglés</option>
+                <option value="ALEMAN">Alemán</option>
+                <option value="ITALIANO">Italiano</option>
+                <option value="FRANCES">Francés</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-first">Registrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="container mt-5">
+  <h2>Bienvenido a ABC Jobs</h2>
+  <p>Encuentra el talento que necesitas para tus proyectos.</p>
+
+  <h3>Candidatos</h3>
+  <ul class="list-group">
+    <li class="list-group-item" (click)="navigateTo('candidates/register')">1. Registro de Candidato</li>
+    <li class="list-group-item" (click)="navigateTo('candidates/test-results')">2. Resultados de Pruebas Técnicas</li>
+    <li class="list-group-item" (click)="navigateTo('candidates/performance-evaluation')">3. Evaluación de Candidatos</li>
+    <li class="list-group-item" (click)="navigateTo('candidates/selection')">4. Selección de Candidatos</li>
+    <li class="list-group-item" (click)="navigateTo('candidates/project-assignment')">5. Asignación de Candidatos a Proyectos</li>
+    <!-- Agrega más enlaces de candidatos según tus rutas -->
+  </ul>
+
+  <h3>Empresas</h3>
+  <ul class="list-group">
+    <li class="list-group-item" (click)="navigateTo('companies/register')">1. Registro de Empresa</li>
+    <li class="list-group-item" (click)="navigateTo('companies/create-project')">2. Creación de Proyectos</li>
+    <!-- Agrega más enlaces de empresas según tus rutas -->
+  </ul>
+
+  <h3>Entrevistas</h3>
+  <ul class="list-group">
+    <li class="list-group-item" (click)="navigateTo('interviews/schedule')">1. Programación de Entrevistas</li>
+    <li class="list-group-item" (click)="navigateTo('interviews/results')">2. Resultados de Entrevistas</li>
+    <!-- Agrega más enlaces de entrevistas según tus rutas -->
+  </ul>
+</div>
