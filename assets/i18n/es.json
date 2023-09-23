@@ -1,0 +1,33 @@
+{
+  "common": {
+    "welcome": "¡Bienvenido!",
+    "submit": "Enviar"
+  },
+  "candidate-registration": {
+    "title": "Registro de Candidato",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "lastName": "Apellido",
+    "address": "Dirección",
+    "educationLevel": "Nivel Educativo",
+    "educationLevel.bachelor": "Bachillerato",
+    "educationLevel.university": "Universitario",
+    "educationLevel.specialization": "Especialización",
+    "educationLevel.master": "Maestría",
+    "educationLevel.doctorate": "Doctorado",
+    "educationLevel.portuguese": "Portugués",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "languages": "Idiomas",
+    "languages.spanish": "Español",
+    "languages.english": "Inglés",
+    "languages.german": "Alemán",
+    "languages.italian": "Italiano",
+    "languages.french": "Francés",
+    "registerButton": "Registrar"
+  },
+  "candidate-selection": {
+    "title": "Selección de Candidato",
+    "description": "Seleccione un candidato."
+  }
+}
