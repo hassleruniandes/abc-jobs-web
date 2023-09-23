@@ -5,8 +5,8 @@ import { CandidateAssignmentComponent } from './candidate-assignment/candidate-a
 import { CandidateRegistrationComponent } from './candidate-registration/candidate-registration.component';
 import { CandidateEvaluationComponent } from './candidate-evaluation/candidate-evaluation.component';
 import { TestResultsComponent } from './test-results/test-results.component';
-
-
+import { TranslateModule } from '@ngx-translate/core';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,9 @@ import { TestResultsComponent } from './test-results/test-results.component';
     TestResultsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule,
+    TranslateModule.forChild()
   ]
 })
 export class CandidatesModule { }

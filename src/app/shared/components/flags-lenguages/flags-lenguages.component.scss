@@ -1,0 +1,25 @@
+
+.language-selector {
+  position: relative;
+}
+
+.language-button {
+  position: absolute;
+  top: 10px; /* Ajusta la distancia desde la parte superior */
+  right: 10px; /* Ajusta la distancia desde la derecha */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #333; /* Color del texto */
+}
+
+.language-button img {
+  width: 30px; /* Ajusta el tamaño de la imagen de la bandera */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-bottom: 5px; /* Espacio entre la imagen y el texto */
+}

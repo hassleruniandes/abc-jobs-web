@@ -1,70 +1,66 @@
+<!-- candidate-registration.component.html -->
+
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-lg-6">
       <div class="card">
         <div class="card-body">
-          <div class="language-selector mb-3">
-            <select class="form-select">
-              <option value="es">🇪🇸 Español</option>
-              <option value="en">🇺🇸 English</option>
-              <option value="de">🇩🇪 Deutsch</option>
-            </select>
-          </div>
-          <h2 class="card-title text-first">Registro de Candidato</h2>
+          <app-flags-lenguages></app-flags-lenguages>
+          <h2 class="card-title">{{ 'candidate-registration.title' | translate }}</h2>
           <form>
             <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre:</label>
+              <label for="nombre" class="form-label">{{ 'candidate-registration.name' | translate }}:</label>
               <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
 
             <div class="mb-3">
-              <label for="apellido" class="form-label">Apellido:</label>
+              <label for="apellido" class="form-label">{{ 'candidate-registration.lastName' | translate }}:</label>
               <input type="text" class="form-control" id="apellido" name="apellido" required>
             </div>
 
             <div class="mb-3">
-              <label for="email" class="form-label">Correo Electrónico:</label>
+              <label for="email" class="form-label">{{ 'candidate-registration.email' | translate }}:</label>
               <input type="email" class="form-control" id="email" name="email" required>
             </div>
 
             <div class="mb-3">
-              <label for="direccion" class="form-label">Dirección:</label>
+              <label for="direccion" class="form-label">{{ 'candidate-registration.address' | translate }}:</label>
               <textarea class="form-control" id="direccion" name="direccion"></textarea>
             </div>
 
             <div class="mb-3">
-              <label for="nivel-educativo" class="form-label">Nivel Educativo:</label>
+              <label for="nivel-educativo" class="form-label">{{ 'candidate-registration.educationLevel' | translate }}:</label>
               <select class="form-select" id="nivel-educativo" name="nivel-educativo">
-                <option value="BACHILLER">Bachiller</option>
-                <option value="UNIVERSITARIO">Universitario</option>
-                <option value="ESPECIALIZACION">Especialización</option>
-                <option value="MAESTRIA">Maestría</option>
-                <option value="DOCTORADO">Doctorado</option>
-                <option value="PORTUGUES">Portugués</option>
+                <option value="BACHILLER">{{ 'candidate-registration.educationLevel.bachelor' | translate }}</option>
+                <option value="UNIVERSITARIO">{{ 'candidate-registration.educationLevel.university' | translate }}</option>
+                <option value="ESPECIALIZACION">{{ 'candidate-registration.educationLevel.specialization' | translate }}</option>
+                <option value="MAESTRIA">{{ 'candidate-registration.educationLevel.master' | translate }}</option>
+                <option value="DOCTORADO">{{ 'candidate-registration.educationLevel.doctorate' | translate }}</option>
+                <option value="PORTUGUES">{{ 'candidate-registration.educationLevel.portuguese' | translate }}</option>
               </select>
             </div>
 
             <div class="mb-3">
-              <label for="habilidades" class="form-label">Habilidades:</label>
+              <label for="habilidades" class="form-label">{{ 'candidate-registration.skills' | translate }}:</label>
               <input type="text" class="form-control" id="habilidades" name="habilidades">
             </div>
 
             <div class="mb-3">
-              <label for="experiencia" class="form-label">Experiencia Laboral:</label>
+              <label for="experiencia" class="form-label">{{ 'candidate-registration.experience' | translate }}:</label>
               <input type="text" class="form-control" id="experiencia" name="experiencia">
             </div>
 
             <div class="mb-3">
-              <label for="idiomas" class="form-label">Idiomas:</label>
+              <label for="idiomas" class="form-label">{{ 'candidate-registration.languages' | translate }}:</label>
               <select class="form-select" id="idiomas" name="idiomas" multiple>
-                <option value="ESPAÑOL">Español</option>
-                <option value="INGLES">Inglés</option>
-                <option value="ALEMAN">Alemán</option>
-                <option value="ITALIANO">Italiano</option>
-                <option value="FRANCES">Francés</option>
+                <option value="ESPAÑOL">{{ 'candidate-registration.languages.spanish' | translate }}</option>
+                <option value="INGLES">{{ 'candidate-registration.languages.english' | translate }}</option>
+                <option value="ALEMAN">{{ 'candidate-registration.languages.german' | translate }}</option>
+                <option value="ITALIANO">{{ 'candidate-registration.languages.italian' | translate }}</option>
+                <option value="FRANCES">{{ 'candidate-registration.languages.french' | translate }}</option>
               </select>
             </div>
-            <button type="submit" class="btn btn-first">Registrar</button>
+            <button type="submit" class="btn btn-first">{{ 'candidate-registration.registerButton' | translate }}</button>
           </form>
         </div>
       </div>

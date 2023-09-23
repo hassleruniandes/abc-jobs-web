@@ -6,6 +6,13 @@ import { CandidatesModule } from './features/candidates/candidates.module';
 import { CompaniesModule } from './features/companies/companies.module';
 import { InterviewsModule } from './features/interviews/interviews.module';
 import { SharedModule } from './shared/shared.module';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -17,7 +24,15 @@ import { SharedModule } from './shared/shared.module';
     CandidatesModule,
     CompaniesModule,
     InterviewsModule,
-    SharedModule
+    HttpClientModule,
+    SharedModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

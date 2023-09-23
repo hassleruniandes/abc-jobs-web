@@ -1,0 +1,33 @@
+{
+  "common": {
+    "welcome": "Welcome!",
+    "submit": "Submit"
+  },
+  "candidate-registration": {
+    "title": "Candidate Registration",
+    "name": "Name",
+    "email": "Email",
+    "lastName": "Last Name",
+    "address": "Address",
+    "educationLevel": "Education Level",
+    "educationLevel.bachelor": "Bachelor's Degree",
+    "educationLevel.university": "University Degree",
+    "educationLevel.specialization": "Specialization",
+    "educationLevel.master": "Master's Degree",
+    "educationLevel.doctorate": "Doctorate",
+    "educationLevel.portuguese": "Portuguese",
+    "skills": "Skills",
+    "experience": "Experience",
+    "languages": "Languages",
+    "languages.spanish": "Spanish",
+    "languages.english": "English",
+    "languages.german": "German",
+    "languages.italian": "Italian",
+    "languages.french": "French",
+    "registerButton": "Register"
+  },
+  "candidate-selection": {
+    "title": "Candidate Selection",
+    "description": "Select a candidate."
+  }
+}

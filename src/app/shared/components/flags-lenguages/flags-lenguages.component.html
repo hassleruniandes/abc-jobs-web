@@ -1,0 +1,8 @@
+<div class="language-selector">
+  <button class="language-button" (click)="changeLanguage('es')" *ngIf="!isSpanishActive">
+    <img src="assets/flags/spain.png" alt="Español"> Español
+  </button>
+  <button class="language-button" (click)="changeLanguage('en')" *ngIf="isSpanishActive">
+    <img src="assets/flags/usa.png" alt="English"> English
+  </button>
+</div>
