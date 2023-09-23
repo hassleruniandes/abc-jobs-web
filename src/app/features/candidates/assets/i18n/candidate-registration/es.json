@@ -1,0 +1,14 @@
+{
+  "registration": {
+    "title": "Registro de Candidato",
+    "name": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "address": "Dirección",
+    "educationLevel": "Nivel Educativo",
+    "skills": "Habilidades",
+    "experience": "Experiencia Laboral",
+    "languages": "Idiomas",
+    "registerButton": "Registrar"
+  }
+}

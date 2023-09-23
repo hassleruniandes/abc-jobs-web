@@ -1,0 +1,14 @@
+{
+  "registration": {
+    "title": "Candidate Registration",
+    "name": "Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "address": "Address",
+    "educationLevel": "Education Level",
+    "skills": "Skills",
+    "experience": "Work Experience",
+    "languages": "Languages",
+    "registerButton": "Register"
+  }
+}
